@@ -34,18 +34,19 @@ anomaly_detector/
 ├── requirements.txt
 └── README.md
 
-
-=> How to Run the Project
+# How to Run the Project
 Open 2 separate terminals and follow the steps:
-# Start the FastAPI Backend
+1. Start the FastAPI Backend
 bash
+
 uvicorn api_backend:app --port 9000 (copy this)
-# Start the Streamlit Dashboard
+3. Start the Streamlit Dashboard
 bash
+
 streamlit run dashboard.py (copy this)
 
 
-=> How It Works
+# How It Works
 api_backend.py receives and stores them in alerts.json.
 
 dashboard.py reads and displays these alerts in real-time on a live dashboard.
