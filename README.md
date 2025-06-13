@@ -40,7 +40,9 @@ Open 2 separate terminals and follow the steps:
 bash
 
 uvicorn api_backend:app --port 9000 (copy this)
-3. Start the Streamlit Dashboard
+
+
+2. Start the Streamlit Dashboard
 bash
 
 streamlit run dashboard.py (copy this)
