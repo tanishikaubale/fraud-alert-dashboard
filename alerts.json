@@ -1,0 +1,33 @@
+[
+    {
+      "amount": 1299.50,
+      "location": 3.2,
+      "transaction_type": 0.8,
+      "device_trust_score": 0.15
+    },
+    {
+      "amount": 20499.99,
+      "location": 5.5,
+      "transaction_type": 0.9,
+      "device_trust_score": 0.05
+    },
+    {
+      "amount": 600.00,
+      "location": 2.1,
+      "transaction_type": 0.4,
+      "device_trust_score": 0.75
+    },
+    {
+      "amount": 9500.00,
+      "location": 6.0,
+      "transaction_type": 1.0,
+      "device_trust_score": 0.10
+    },
+    {
+      "amount": 300.25,
+      "location": 1.0,
+      "transaction_type": 0.3,
+      "device_trust_score": 0.95
+    }
+  ]
+  
