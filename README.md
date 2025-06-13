@@ -2,6 +2,7 @@
 A lightweight project using FastAPI and Streamlit to simulate and monitor fraudulent transactions in real-time. It mimics a real-world backend alerting system where simulated anomalies are sent to a webhook and displayed on a dashboard.
 
 📦 Tech Stack
+
 FastAPI – for receiving alerts (webhook)
 
 Streamlit – for visualizing alerts on the dashboard
