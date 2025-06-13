@@ -11,7 +11,7 @@ Python – for scripting and alert simulation
 ⚙️ Installation
 # Clone the repository
 git clone https://github.com/tanishikaubale/fraud-alert-dashboard.git
-cd real-time-fraud-dashboard
+cd fraud-alert-dashboard
 
 # Create and activate a virtual environment
 python -m venv venv
@@ -25,11 +25,13 @@ pip freeze > requirements.txt
 
 
 📂 File Structure
-├── api_backend.py        # FastAPI server for receiving alerts
-├── dashboard.py          # Streamlit dashboard for visualizing alerts
-├── simulate_alert.py     # Simulates random fraud alerts
-├── alerts.json           # Stores received alerts (auto-created)
-└── requirements.txt      # Python dependencies
+anomaly_detector/
+├── main.py
+├── webhook.py
+├── fraud_model.pkl
+├── synthetic_transactions.csv
+├── requirements.txt
+└── README.md
 
 
 => How to Run the Project
